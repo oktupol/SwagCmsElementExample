@@ -1,0 +1,25 @@
+{
+  "name": "shopware-labs/swag-cms-element-example",
+  "description": "CMS Element example",
+  "version": "v1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shopware AG"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ShopwareLabs\\Plugin\\SwagBundleExample\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ShopwareLabs\\Plugin\\SwagCmsElementExample\\SwagCmsElementExample",
+    "copyright": "(c) by shopware AG",
+    "label": {
+      "de_DE": "Noch ein Beispiel für Shopware",
+      "en_GB": "Another example for Shopware"
+    }
+  }
+}
